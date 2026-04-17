@@ -13,7 +13,7 @@ header{
     color: #fff;
     padding: 15px 20px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 }
 header nav a {
@@ -35,13 +35,15 @@ section {
     padding: 40px 20px;
     text-align: center;
 }
-#skills ul {
+ul {
     list-style: none;
+    padding-left: 0;
+    margin-left: 0;
 }
 #skills li {
-    margin:  0;
+    margin: 10px 0;
     padding: 0;
-    list-style: none;
+    list-style-type: none;
 }
 .project {
     background: white;
